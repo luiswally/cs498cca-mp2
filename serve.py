@@ -11,7 +11,7 @@ def login():
       return on_get()
 
 def on_post():
-   subprocess.Popen(["python", "stress_cpu.py"])
+   subprocess.Popen(["python3", "stress_cpu.py"])
    return "stress_cpu intialized"
 
 
